@@ -3,7 +3,7 @@ Contributors: joefusco, intenzi, ashishjii, iamchitti, iqbal1hossain, wp24horas,
 Tags: presence, awareness, heartbeat, real-time
 Requires at least: 7.0
 Tested up to: 7.1
-Stable tag: 0.15.0
+Stable tag: 0.16.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -70,6 +70,9 @@ For code, the `wp_presence_recording_enabled` and `wp_presence_network_recording
 
 Only the most recent releases are listed here. For the full history, see https://github.com/WordPress/presence-api/blob/main/CHANGELOG.md
 
+= 0.16.0 =
+* Add npm run check for every check that works without wp-env ([#758](https://github.com/WordPress/presence-api/issues/758)).
+
 = 0.15.0 =
 * Fire an action when a presence row is set or removed ([#756](https://github.com/WordPress/presence-api/issues/756)).
 * Let a site switch off the pieces it does not want, starting with post locks ([#724](https://github.com/WordPress/presence-api/issues/724)).
@@ -90,6 +93,3 @@ Only the most recent releases are listed here. For the full history, see https:/
 * Avoid repeated network summary table checks ([#657](https://github.com/WordPress/presence-api/issues/657)).
 * Read each presence query once per request until the table changes ([#678](https://github.com/WordPress/presence-api/issues/678)).
 * Trust the presence table's version option and recheck it only after a failed write ([#682](https://github.com/WordPress/presence-api/issues/682)).
-
-= 0.12.1 =
-* Maintenance release.
