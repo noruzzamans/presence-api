@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.0](https://github.com/WordPress/presence-api/compare/v0.15.0...v0.16.0) (2026-10-06)
+
+
+### Features
+
+* add npm run check for every check that works without wp-env ([#758](https://github.com/WordPress/presence-api/issues/758)) ([432a3f8](https://github.com/WordPress/presence-api/commit/432a3f862b82d6c57abaa76d5cc7a5dc10ec0064))
+
 ## [0.15.0](https://github.com/WordPress/presence-api/compare/v0.14.0...v0.15.0) (2026-10-06)
 
 
